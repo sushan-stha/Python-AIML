@@ -3,13 +3,13 @@
 balance = 10000
 
 while True:
-    print("----Welcome to Python Atm----")
+    print("\n----Welcome to Python Atm----")
     print("1.Check Balace:")
     print("2.Deposit Funds:")
     print("3.WithDraw Funds:")
     print("4.Exit:")
 
-    user_choice = input("Enter you choice(1-4):")
+    user_choice = int(input("Enter you choice(1-4):"))
 
     match user_choice:
         case 1:
@@ -27,6 +27,8 @@ while True:
                 print(f"Remaining Balance:{balance}")
         case 4:
             print("Thankyou for choosing us!")
+        
             break
 
-        
+        case _:
+            print("Invalid Choice!!")
