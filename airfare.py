@@ -12,7 +12,7 @@ print(f"Your total is:{totalPrice}")
 FrequentFlyer = input("Are you a frequent flyer?").lower()
 if(FrequentFlyer=="yes"):
     discount = totalPrice-totalPrice*(20/100)
-    print(f"You've got 20percent off!.Your new total is:{discount}")
+    print(f"You've got 20% off!.Your new total is:{discount}")
 else:
     print(f"Your total is:{totalPrice}")
 
@@ -42,7 +42,7 @@ elif(luggageWeight>20 and PromoCode==""):
     extraWeight = luggageWeight-20
     print(f"You have {extraWeight}kg more weight.So, fine amount is Rs.100 per kg")
     fine = (luggageWeight-20)*100
-    print(f"SO your fine amount is:{fine}")
+    print(f"So your fine amount is:{fine}")
 else:
     print("Invalid number!!")
 
