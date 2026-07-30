@@ -1,2 +1,2 @@
-case _:
-        #     print("Invalid Choice!!")
+x = "Sushan"
+print(x.lower())
